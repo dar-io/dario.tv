@@ -300,6 +300,8 @@ border-bottom: none;
 	}
 	.stories-group-inline .hard-news-unit--regular .hard-news-unit__image {
 		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
@@ -314,6 +316,8 @@ border-bottom: none;
 		
 		.socialnetwork .stories-group-inline .hard-news-unit--regular .hard-news-unit__image {
 		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
@@ -464,6 +468,9 @@ background-repeat: no-repeat;
 	}
 	
 	.hard-news-unit--regular .hard-news-unit__image {
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
@@ -512,6 +519,8 @@ background-repeat: no-repeat;
 /* CAROUSEL ------------------------*/		
 	.HYPE_scene .responsive-image__label, .HYPE_scene .img-label {
 		font-weight: 400;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
@@ -784,6 +793,8 @@ margin-bottom: 0px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: -4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1014,6 +1025,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	
 .HYPE_scene .story-inner .img-label {
 	font-weight: 400;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1227,6 +1240,8 @@ padding: 0px;
 
 .HYPE_scene .quoteBox img.js-image-replace {
 margin-left: 4px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
 border-radius: 50%;
 }
 
@@ -1381,6 +1396,8 @@ background-color: #78AC6D;
 	width: 100%;
 	padding-left: 4px;
 	padding-right: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1536,6 +1553,8 @@ overflow: hidden;
 }
 
 .HYPE_scene .more-index-unit {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 -o-box-sizing: border-box;
 box-sizing: border-box;
@@ -1689,6 +1708,8 @@ padding-left: 0px;
 }
 
 .HYPE_scene .navigation-panel-toplevel {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 -o-box-sizing: border-box;
 box-sizing: border-box;
