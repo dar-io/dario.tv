@@ -6,6 +6,7 @@ categories:
 description:
 tags:
   - Case Study
+  - test
 image: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.002.png
 cover-image: /assets/img/Mundo-Hindi-Research-findings-Highlights/mundo-hindi-us.png
 prototype-link: /assets/prototypes/hindi/index.html

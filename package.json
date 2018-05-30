@@ -2,10 +2,14 @@
   "name": "startjekyll",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "jekyll",
+    "blog"
+  ],
   "author": "Dario Ramalho",
   "license": "ISC",
   "devDependencies": {
@@ -14,7 +18,7 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.12",
-    "gulp-concat": "^2.6.0",
+    "gulp-concat": "^2.6.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^3.0.3",
     "gulp-jshint": "^2.0.1",
@@ -26,7 +30,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
     "gulp-svgmin": "^1.2.4",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^2.0.1",
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.3",
     "run-sequence": "^1.2.2",

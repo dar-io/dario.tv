@@ -14,7 +14,7 @@ content-block:
   - Theme-Classes: block-mt bg-red text-snow
     Pattern-Image:
     Layout-Classes: offset-md-0 offset-lg-2 col-sm-12 col-md-9 col-lg-7 col-xl-6 mb-md-0 mb-lg-5
-    Subheading:
+    Subheading: "<span class='d-inline-block text-truncate client-logo bbc-news product-name'></span>"
     H1-Heading: "BBC News App: Videos of the Day Promo"
     H2-Heading:
     Description:
@@ -27,7 +27,7 @@ content-block:
     Right-Side-Column:
       - When: "Apr - Jun 2017"
         Product: |
-          <span class="client-logo bbc-news">BBC News</span>
+          <span class="d-inline-block product-name"><a class="text-white anchor-underline-dark" href="https://www.bbc.co.uk/news">BBC News</a></span>
         Platform: |
           iOS/Android: <a class="text-white anchor-underline-dark" href="http://www.bbc.co.uk/news/10628994"><BBC>News App</BBC></a>
         Roles:

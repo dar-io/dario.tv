@@ -224,6 +224,8 @@ body .border-w-2{
   padding-top: 4px;
   &.bbc-news{
     background-image: url('/assets/svg/BBC_News.svg');
+    height: 50px;
+    width: 50px;
   }
   &.bbc{
     background-image: url('/assets/svg/BBC.svg');
@@ -365,7 +367,7 @@ div#Stage{
 
 
 
-// 
+//
 // .message-received {
 //   clear: both;
 //   overflow: hidden;
