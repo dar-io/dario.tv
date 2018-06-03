@@ -5,8 +5,8 @@
     <description>Dario is a Digital Product Designer at the BBC, and he is driven to make digital experiences inclusive and functional. His practice extends towards interactive and visual design</description>
     <link>http://dario.tv/</link>
     <atom:link href="http://dario.tv//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 May 2018 00:07:08 +0100</pubDate>
-    <lastBuildDate>Thu, 31 May 2018 00:07:08 +0100</lastBuildDate>
+    <pubDate>Sun, 03 Jun 2018 23:49:56 +0100</pubDate>
+    <lastBuildDate>Sun, 03 Jun 2018 23:49:56 +0100</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -44,8 +44,6 @@
         <guid isPermaLink="true">http://dario.tv//2015/03/23/BBC-News-Responsive-Redesign/</guid>
         
         <category>Case Study</category>
-        
-        <category>test</category>
         
         
       </item>
