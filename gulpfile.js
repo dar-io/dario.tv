@@ -112,7 +112,6 @@ gulp.task('clean:svg', function(callback) {
 // Optimizes and copies image files.
 gulp.task('build:lottie', function() {
     return gulp.src('_assets/lottie/**/*')
-        .pipe(svgmin())
         .pipe(gulp.dest('assets/lottie'))
         .pipe(gulp.dest('_site/assets/lottie'))
         .pipe(browserSync.stream());
