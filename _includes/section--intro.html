@@ -1,0 +1,30 @@
+
+{% include item--h1-heading.html %}
+{% include item--h2-heading.html %}
+
+{% if item.Subheading %}
+  <p class="mb-5 font-weight-normal text-secondary">{{item.Subheading | textilize}}</p>
+{% endif %}
+
+{% for entry in item.Description %}
+
+  {% include item--h4-heading.html H4-Heading=entry.H4-Heading %}
+
+  {% if entry.Heading %}
+    <h4 class="font-weight-medium">H4 Heading {{entry.Heading}}</h4>
+  {% endif %}
+
+  {% include item--image.html
+    H4-Heading=entry.H4-Heading
+    Image=entry.Image
+    Layout-Classes=entry.Layout-Classes
+    Figcaption-top=entry.Figcaption-top
+    Image-Classes=entry.Image-Classes
+    Figcaption=entry.Figcaption
+    Classes='mb-5'
+  %}
+
+{% include item--paragraph.html %}
+{% endfor %}
+
+{% include item--bullets.html %}

@@ -1,0 +1,76 @@
+
+
+<div class="container">
+  <div class="row {% if item.H1-Heading %}justify-content-center{% endif %}">
+  <div class="align-content-center col-sm-12 col-md-10 col-lg-8">
+      {% include item--subheading.html %}
+  </div>
+    {% for entry in item.Media-Top %}
+      {% include item--image.html
+        H4-Heading=entry.H4-Heading
+        Image=entry.Image
+        Layout-Classes=entry.Layout-Classes
+        Figcaption-top=entry.Figcaption-top
+        Image-Classes=entry.Image-Classes
+        Figcaption=entry.Figcaption
+        Classes='mb-5'
+      %}
+    {% endfor %}
+
+    {% if item.Secondary-Column == nil %}
+      {% if item.H1-Heading == nil %}
+      <div class="align-content-center col-sm-12 col-md-10 col-lg-8">
+        {% include section--body__content.html %}
+      </div>
+      {% else %}
+        <div class="col-sm-12 col-md-10 col-lg-8">
+            {% include section--intro.html %}
+        </div>
+      {% endif %}
+    {% else %}
+      {% include section--body-cols-2.html %}
+    {% endif %}
+
+
+    {% include item--project-info.html %}
+
+    {% for entry in item.Media %}
+        {% include item--image.html
+          H4-Heading=entry.H4-Heading
+          Image=entry.Image
+          Layout-Classes=entry.Layout-Classes
+          Image-Classes=entry.Image-Classes
+          Figcaption=entry.Figcaption
+          Classes='mb-5'
+        %}
+
+        {% include item--social-video.html
+          Figcaption=entry.Figcaption
+          Video-Classes='rounded videoWrapper'
+        %}
+
+        {% include item--video.html
+          Figcaption=entry.Figcaption
+          Video-Classes='rounded videoWrapper'
+        %}
+
+    {% endfor %}
+
+    {% for entry in item.Description-Post-Media %}
+      <div class="text-center {{entry.Layout-Classes}}">
+          {% if entry.Figcaption %}
+            <figcaption class="figure-caption w-100 align-content-center text-center mt-1"><small>{{ entry.Figcaption | textilize }}</small></figcaption>
+          {% endif %}
+          {% if entry.Paragraph %}
+            <p class="font-weight-normal"><small>{{entry.Paragraph | textilize}}</small></p>
+          {% endif %}
+
+      </div>
+    {% endfor %}
+
+
+
+
+  </div>
+
+</div>

@@ -1,0 +1,35 @@
+
+{% if item.U-List == nil %}
+{% else %}
+  <ul class="mt-2 mb-5 Bullet type-size-18">
+    {% for entry in item.U-List %}
+      {% if entry.Bullet == nil %}
+      {% else %}
+        <li class="font-weight-normal mb-4">{{ entry.Bullet }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
+{% if item.O-List == nil %}
+{% else %}
+  <ol class="mt-2 mb-5 Bullet type-size-18">
+    {% for entry in item.O-List %}
+      {% if entry.Bullet == nil %}
+      {% else %}
+        <li class="font-weight-normal mb-4">{{ entry.Bullet }}</li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endif %}
+
+{% for entry in item.Description-post-bullet %}
+  {% if entry.H4-Heading %}
+    {% include item--h4-heading.html %}
+  {% endif %}
+  {% if entry.Heading %}
+    <h6 class="font-weight-medium">{{entry.Heading}}</h6>
+  {% endif %}
+  {% if entry.Paragraph %}
+    <p class="font-weight-normal">{{entry.Paragraph | textilize}}</p>
+  {% endif %}
+{% endfor %}

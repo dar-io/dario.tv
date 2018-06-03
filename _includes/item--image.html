@@ -1,0 +1,12 @@
+{% if  include.Image  %}
+  <div class="{{ include.Classes }} {{ include.Layout-Classes }}">
+    {% include item--h4-heading.html %}
+    {% if entry.Figcaption-top  %}
+      {% include item--figcaption.html Figcaption=entry.Figcaption-top %}
+    {% endif %}
+    <img class="rounded img-fluid mx-auto w-100 {{ include.Image-Classes }}" src="{{ site.baseurl }}{{ include.Image }}" alt="{{ include.Figcaption }}">
+
+    {% include item--figcaption.html %}
+
+  </div>
+{% endif %}

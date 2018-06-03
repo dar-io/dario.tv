@@ -1,0 +1,34 @@
+
+
+
+{% if item.Right-Side-Column == nil %}
+{% else %}
+  {% for entry in item.Right-Side-Column %}
+
+    <div class="col-12 col-md-10 col-lg-3">
+      <div class="project-info">
+        <div class="row no-gutters">
+          <div class="project-info--block  mb-3 col-4 col-lg-12 pr-1 pl-1">
+              <h6 class="roboto-condensed font-weight-bold type-size-13 text-uppercase opacity-75 d-block w-100">When</h6>
+              <span class=" type-size-13 font-weight-normal mb-1 d-inline-block text-truncate">{{ entry.When }}</span>
+          </div>
+          <div class="project-info--block  mb-3 col-4 col-md-4 col-lg-12 pr-1 pl-1">
+              <h6 class="roboto-condensed font-weight-bold type-size-13 text-uppercase opacity-75 d-block w-100">Client</h6>
+              <span class=" type-size-13 font-weight-normal mb-1 d-inline-block text-truncate">{{ entry.Product }}</span>
+          </div>
+          <div class="project-info--block  mb-3 col-4 col-md-4 col-lg-12 pr-1 pl-1">
+              <h6 class="roboto-condensed font-weight-bold type-size-13 text-uppercase opacity-75 d-block w-100">Platform</h6>
+              <span class="type-size-13 font-weight-normal mb-1 d-inline-block text-truncate">{{ entry.Platform }}</span>
+          </div>
+          <div class="project-info--block mb-3 col-12 pr-1 pl-1">
+              <h6 class="roboto-condensed font-weight-bold type-size-13 text-uppercase opacity-75 d-block w-100">Hats Worn</h6>
+              {% for roles in entry.Roles %}
+                <span class="white-space--nowrap type-size-13 font-weight-normal mb-1 pr-1">• {{ roles.Role }}</span>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  {% endfor %}
+{% endif %}

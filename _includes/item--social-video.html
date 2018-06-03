@@ -1,0 +1,8 @@
+{% if entry.Video-social %}
+    <div class="{{ entry.Layout-Classes }}">
+      <div class="{{ include.Video-Classes }}">
+          <iframe class="embed-responsive-item" src="{{ entry.Video-social }}" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+      </div>
+      {% include item--figcaption.html %}
+    </div>
+{% endif %}

@@ -1,0 +1,56 @@
+
+<div class="container ">
+  <div class="row">
+    <div class="align-content-center col-sm-12 col-md-10 col-lg-8">
+        {% include item--subheading.html %}
+    </div>
+
+    {% for entry in item.Media-Top %}
+        {% include item--image.html %}
+    {% endfor %}
+
+    {% if item.Secondary-Column == nil %}
+      <div class="offset-md-1 offset-lg-2 col-sm-12 col-md-8 col-lg-5">
+        {% include section--body__content.html %}
+      </div>
+    {% else %}
+      {% include section--body-cols-2.html %}
+    {% endif %}
+
+
+    {% include project-detail-card.html %}
+
+    {% for entry in item.Media %}
+        {% include item--image.html
+          H4-Heading=entry.H4-Heading
+          Image=entry.Image
+          Layout-Classes=entry.Layout-Classes
+          Figcaption-top=entry.Figcaption-top
+          Image-Classes=entry.Image-Classes
+          Figcaption=entry.Figcaption
+          Classes='mb-5'
+        %}
+
+        {% include item--social-video.html %}
+
+
+    {% endfor %}
+
+    {% for entry in item.Description-Post-Media %}
+      <div class="text-center {{entry.Layout-Classes}}">
+          {% if entry.Figcaption %}
+            <figcaption class="figure-caption w-100 align-content-center text-center mt-1"><small>{{ entry.Figcaption | textilize }}</small></figcaption>
+          {% endif %}
+          {% if entry.Paragraph %}
+            <p class="font-weight-normal"><small>{{entry.Paragraph | textilize}}</small></p>
+          {% endif %}
+
+      </div>
+    {% endfor %}
+
+
+
+
+  </div>
+
+</div>

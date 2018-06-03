@@ -1,0 +1,12 @@
+{% if entry.Video %}
+    <div class="d-block {{ entry.Layout-Classes }}">
+      {% if entry.Figcaption-top  %}
+        {% include item--figcaption.html Figcaption=entry.Figcaption-top %}
+      {% endif %}
+      <video class="rounded img-fluid mx-auto w-100 {{ entry.Video-Classes }}" controls muted autoplay loop preload="auto" name="media" poster="{{ entry.Video-Poster }}">
+        <source src="{{ entry.Video }}" type="video/mp4">
+        Your browser does not support the HTML5 videos.
+      </video>
+      {% include item--figcaption.html %}
+    </div>
+{% endif %}

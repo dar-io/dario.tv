@@ -1,12 +1,21 @@
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif:      'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
+
+
+
+
+.roboto-condensed{
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
 
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
 $font-weight-bold:            700;
 $font-weight-xbold:           900 !default;
+
 
 $line-height-base:            1.7;
 $headings-line-height:        1.25;
@@ -15,7 +24,7 @@ $headings-line-height:        1.25;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1.25rem;
+$paragraph-margin-bottom:   1.8rem;
 
 //
 // Color system
@@ -143,14 +152,34 @@ $theme-colors: map-merge((
 
 .font-weight-xbold  { font-weight: $font-weight-xbold !important; }
 
+%type-size-40 {
+  font-size: 2.5rem;
+  letter-spacing: 0px;
+}
+%type-size-28 {
+  font-size: 2rem;
+  letter-spacing: 0px;
+}
 %type-size-18 {
   font-size: 1.125em;
+  letter-spacing: 0px;
+}
+
+%type-size-17 {
+  font-size: 1em;
   letter-spacing: 0px;
 }
 
 %type-size-16 {
   font-size: 1em;
   letter-spacing: 0px;
+}
+
+
+%paragraph{
+  @extend %type-size-18;
+  margin-bottom: $paragraph-margin-bottom !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul, ol{
@@ -186,17 +215,39 @@ ol.Bullet{
 
 
 p{
-  @extend %type-size-16;
-  margin-bottom: $paragraph-margin-bottom !important;
-  -webkit-font-smoothing: antialiased;
+  @extend %paragraph;
+}
+
+.paragraph{
+    @extend %paragraph;
+}
+
+p:last-of-type{
+  margin-bottom: ($spacer * 2.75) !important;
+}
+
+.figure-caption{
+  line-height: $headings-line-height !important;
+}
+
+.h1, h1{
+  font-size: 2em !important;
+  letter-spacing: 0;
+  @include media-breakpoint-up(md) { font-size: 3.2em !important;}
+}
+
+.h4, h4{
+  font-size: 1.5em !important;
+  letter-spacing: 0;
+  @include media-breakpoint-up(md) {  font-size: 1.9em !important;}
 }
 
 .type-size-18{
   @extend %type-size-18;
 }
-.figure-caption{
-  line-height: $headings-line-height !important;
 
+.type-size-16{
+  @extend %type-size-16;
 }
 
 .type-size-15{
@@ -262,14 +313,33 @@ p a{
   height: 25px;
 }
 
+.white-space--nowrap{
+  white-space: nowrap
+}
+
+.project-info{
+  @include media-breakpoint-up(xs) { border-top: 1px dotted #cacaca6b;   padding-top: 1em;}
+  @include media-breakpoint-up(lg) { border-top: 0px;}
+  .project-info--block{
+    .text-truncate{
+      max-width: 29vw;
+    }
+  }
+
+}
+
+
 figcaption {
-  max-width: 720px;
+  max-width: 90%;
   a{
   border-bottom: 1px solid rgba(251, 17, 0, 0.7);
   display: inline-block;
   }
 }
 
+.FullWidthImage{
+  max-width: 1440px;
+}
 .chip{
     display: inline-block;
     height: 32px;
@@ -291,16 +361,17 @@ figcaption {
 
 .paragraph-decor{
   p{
-    margin-bottom: 4rem !important;
+    @include media-breakpoint-up(md) { margin-bottom: 2.75rem !important; }
   }
   p:before{
     content: "";
     position: relative;
     display: block;
     width: 6em;
-    height: 4px;
+    height: 2px;
     margin-bottom: 8px;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 20%, rgba(255,250,0,1) 20%, rgba(255,250,0,1) 40%, rgba(5,231,10,1) 40%, rgba(5,231,10,1) 60%, rgba(0,179,255,1) 60%, rgba(0,179,255,1) 80%, rgba(218,12,208,1) 80%);
+    margin-top: 8px;
+    background: linear-gradient(90deg,red 0%,#fffa00 27%,#05e70a 76%,#00b3ff 86%,#00b3ff 75%,#da0cd0 105%);
   }
 }
 // h1{
@@ -366,6 +437,25 @@ div#Stage{
 }
 
 
+.block-mt{
+  padding-top: 100px;
+  @include media-breakpoint-up(xs) { padding-top: 56px !important;}
+  // @include media-breakpoint-up(sm) { transform: scale(0.398) !important;}
+  @include media-breakpoint-up(md) { padding-top: 88px !important; }
+  // @include media-breakpoint-up(lg) { transform: scale(0.7) !important; }
+  // @include media-breakpoint-up(xl) { transform: scale(0.8) !important; }
+}
+
+
+.block-mb{
+  padding-bottom: 80px;
+  @include media-breakpoint-up(xs) { padding-bottom: 32px !important;}
+  @include media-breakpoint-up(md) { padding-bottom: 64px !important;}
+}
+
+.block-mb-20{
+  padding-bottom: 20px;
+}
 
 //
 // .message-received {
