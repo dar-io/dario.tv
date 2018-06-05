@@ -4,7 +4,7 @@ layout: default
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
   {% for item in page.section--body %}
-    <section id="{{item.id}}" class="position-relative opener {{item.Theme-Classes}}"  style="background-size: cover; background-image: url('{{ item.Pattern-Image }}');">
+    <section id="{{item.id}}" class="overflow-hidden position-relative opener {{item.Theme-Classes}}"  style="background-size: cover; background-image: url('{{ item.Pattern-Image }}');">
 
 
         {% if item.ImageLayout %}
@@ -13,7 +13,7 @@ layout: default
           {% include section--body.html %}
         {% endif %}
 
-          
+
         {% for entry in item.Media %}
           {% include item--image.html
             H4-Heading=entry.H4-Heading

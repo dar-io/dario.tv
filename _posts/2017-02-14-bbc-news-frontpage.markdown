@@ -167,6 +167,7 @@ section--body:
     Subheading: DESIGN PROCESS
     Description:
       - Image: /assets/img/homepage/start-collider.gif
+        Layout-Classes: mb-5
         Figcaption: "I've built the BBC News frontpage using the BBC GEL SCSS Framework using a tool created by UX Designer Simon Sinclair known as Collider (<a href='http://atomicdesign.bradfrost.com/'>Based on Atomic Design</a>)."
       - H4-Heading: Designing in the Browser
       - Paragraph: "After exploring designs in paper, I moved into Sketch to design high fidelity mockups. This proved to be challenging to solve problems when reflowing content across breakpoints. I wanted to come up with a solid solution that engineers could use to build the BBC News Front Page."

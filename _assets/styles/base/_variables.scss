@@ -134,6 +134,13 @@ $theme-colors: map-merge((
 ), $theme-colors);
 
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 .opacity-75{
   opacity: 0.75;
 }
@@ -223,7 +230,8 @@ p{
 }
 
 p:last-of-type{
-  margin-bottom: ($spacer * 2.75) !important;
+  margin-bottom: ($spacer * 1.8) !important;
+  @include media-breakpoint-up(md) { margin-bottom: ($spacer * 2.75) !important;}
 }
 
 .figure-caption{
@@ -231,7 +239,7 @@ p:last-of-type{
 }
 
 .h1, h1{
-  font-size: 2em !important;
+  font-size: 2.5em !important;
   letter-spacing: 0;
   @include media-breakpoint-up(md) { font-size: 3.2em !important;}
 }
@@ -318,8 +326,38 @@ p a{
 }
 
 .project-info{
-  @include media-breakpoint-up(xs) { border-top: 1px dotted #cacaca6b;   padding-top: 1em;}
-  @include media-breakpoint-up(lg) { border-top: 0px;}
+  position: relative;
+  margin-bottom: 36px;
+  padding-top: 24px;
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #e2e2e2;
+    height: 1px;
+    width: 120vw;
+    left: -22vw;
+    top: 0;
+    .bg-red &{
+      background-color: #e2e2e245;
+    }
+    @include media-breakpoint-up(lg) { content: none;}
+  }
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #e2e2e2;
+    height: 1px;
+    width: 120vw;
+    left: -22vw;
+    bottom: 0;
+    .bg-red &{
+      background-color: #e2e2e245;
+    }
+    @include media-breakpoint-up(lg) { content: none;}
+  }
+  @include media-breakpoint-up(lg) { margin-bottom: 0px;padding-top: 0px;}
   .project-info--block{
     .text-truncate{
       max-width: 29vw;
@@ -370,7 +408,7 @@ figcaption {
     width: 6em;
     height: 2px;
     margin-bottom: 8px;
-    margin-top: 8px;
+    margin-top: 16px;
     background: linear-gradient(90deg,red 0%,#fffa00 27%,#05e70a 76%,#00b3ff 86%,#00b3ff 75%,#da0cd0 105%);
   }
 }

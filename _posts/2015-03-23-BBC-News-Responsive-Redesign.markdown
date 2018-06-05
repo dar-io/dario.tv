@@ -81,7 +81,7 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
 
     Media:
       - Layout-Classes: align-content-center
-        Image: /assets/img/Mundo-Hindi-Research-findings-Highlights/wireframes-news-responsive.png
+        Image: /assets/img/Mundo-Hindi-Research-findings-Highlights/BBCNews-responsive-v1-postits.png
 
 
   - Theme-Classes: block-mt block-mb bg-gray-100
@@ -116,10 +116,10 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
       - Paragraph: "I designed high fidelity mockups in Adobe Illustrator using the BBC News Modular Component Framework."
 
     Media:
-      - Layout-Classes:  mt-4 align-content-center col-sm-12
+      - Layout-Classes: align-content-center col-sm-12 col-md-10 col-lg-10
         Image: /assets/img/Mundo-Hindi-Research-findings-Highlights/what-is-the-modular-component-framework.png
       - Layout-Classes: align-content-center
-        Image: /assets/img/Mundo-Hindi-Research-findings-Highlights/Homepage-designs.png
+        FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.002.png
 
 
 
@@ -129,7 +129,7 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
     Description:
       - H4-Heading: High Fidelity Prototypes
       - Paragraph: "I have built desktop only and responsive prototypes in HTML/CSS/JS to validate designs in usability testing sessions, and to engage and gain buy-in from stakeholders. I have also built prototypes to help solve design challenges before they occurred during the build phase."
-      - Paragraph: "<span class='mb-2 d-block align-content-center text-center'> <strong>Check the prototypes below</strong></span>"
+      - Paragraph: "<strong>Check the prototypes below</strong>"
       - Paragraph: "<span class='mb-2 align-content-center text-center'> <a class='chip' href='/assets/prototypes/Mundo/desktop.html'>May 2014 - BBC Mundo Research</a> <a class='chip' href='/assets/prototypes/hindi/index.html'>Jun 2014 - BBC Hindi Research</a> <a class='chip' href='/assets/prototypes/NY_PROTOTYPE 29-09-2014_v02/in dex.html'>Oct 2014 - BBC News Int'l Edition Research</a><a class='chip' href='/assets/prototypes/bbc_news_frontpage/04_News_Frontpage_2014/index.html'>Jan 2015 - Responsive BBC News HP Final Designs</a></span> "
 
 
@@ -182,7 +182,7 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
           - Paragraph: "This research proposed to assess the overall proposition in terms of: (1) layout & hierarchy, (2) page length, (3) content density, (4) reading experience, (5) line length & inline modules, (6) navigation discoverability, (7) onward journeys, and (8) assess the new responsive MVP against competitor desktop sites."
 
     Media:
-      - Full-width-image: /assets/img/Mundo-Hindi-Research-findings-Highlights/mvp-prototype-static.png
+      - FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/mvp-prototype-static.png
 
 
 
@@ -392,18 +392,18 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
 
 
 
-  - Theme-Classes: collapse multi-collapse block-mt block-mb bg-navy-deep text-snow
+  - Theme-Classes: collapse multi-collapse block-mt bg-navy-deep text-snow
     id: multiCollapse_16
     Pattern-Image:  /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights_articles.022.png
     H3-Heading: Articles
 
     Media:
-      - Full-width-Classes: col-sm-10 align-content-right padding-zero
-        Full-width-image: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.022.png
+      - Layout-Classes: col-sm-10 align-content-right padding-zero
+        FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.022.png
 
 
 
-  - Theme-Classes: collapse multi-collapse block-mt block-mb bg-navy text-snow
+  - Theme-Classes: collapse multi-collapse block-mt bg-navy text-snow
     id: multiCollapse_17
     Subheading: ARTICLES
     Description:
@@ -413,8 +413,8 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
       - Paragraph: "Skim reading often starts after the 3rd paragraph and it stops at the bottom of the article."
 
     Media:
-      - Full-width-Classes: col-sm-10 align-content-right padding-zero
-        Full-width-image: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.023.png
+      - Layout-Classes: col-sm-10 align-content-right padding-zero
+        FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.023.png
 
 
 
@@ -426,8 +426,8 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
       - Paragraph: "Skim reading often starts after the 3rd paragraph and it stops at the bottom of the article."
 
     Media:
-      - Full-width-Classes: col-sm-10 align-content-right padding-zero
-        Full-width-image: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.024.png
+      - Layout-Classes: col-sm-10 align-content-right padding-zero
+        FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/Mundo-Hindi-Research-findings-Highlights.024.png
 
 
 
