@@ -227,15 +227,15 @@ section--body:
   - Theme-Classes: block-mb block-mt bg-snow
     H4-Heading: "I created a set of Photoshop actions and templates that enable video editors to quickly pick a image visual style that works better with their story."
     Description:
-      - Paragraph: "The images visual style would also need to enhance images' quality that often was poor."
+      - H4-Heading: "The images visual style would also need to enhance images' quality that often was poor."
       - Paragraph: "I have also trained three video editors how to use Photoshop."
 
     Media:
-      - Layout-Classes: align-content-center col-sm-12 col-md-6 col-lg-6
+      - Layout-Classes: align-content-center col-sm-12 col-md-6 col-lg-6 mb-5
         Image: /assets/img/news-stream-promo/stories-photoshop-actions-template.gif
         Figcaption-top: Photoshop actions in 'action'.
 
-      - Layout-Classes: align-content-center col-sm-12 col-md-6 col-lg-6
+      - Layout-Classes: align-content-center col-sm-12 col-md-6 col-lg-6 mb-5
         Image: /assets/img/news-stream-promo/stories-image-treatment.png
         Figcaption-top: Colour palette was limited to the BBC Stories visual identity.
 

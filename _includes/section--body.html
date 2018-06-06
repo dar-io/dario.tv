@@ -39,9 +39,12 @@
 
 {% if item.H1-Heading == nil %}
   {% if item.Media %}
-
+    <div class="w-100"></div>
     <div class="row align-content-center">
         {% for entry in item.Media %}
+
+
+
             {% include item--image.html
               H4-Heading=entry.H4-Heading
               Image=entry.Image

@@ -429,9 +429,9 @@ div#Stage{
   height: 46em !important;
   @include media-breakpoint-up(xs) { transform: scale(0.26) !important;}
   @include media-breakpoint-up(sm) { transform: scale(0.398) !important;}
-  @include media-breakpoint-up(md) { transform: scale(0.53) !important; }
-  @include media-breakpoint-up(lg) { transform: scale(0.7) !important; }
-  @include media-breakpoint-up(xl) { transform: scale(0.8) !important; }
+  @include media-breakpoint-up(md) { transform: scale(0.53) !important; left: 4vw; }
+  @include media-breakpoint-up(lg) { transform: scale(0.7) !important; left: 7vw; }
+  @include media-breakpoint-up(xl) { transform: scale(0.8) !important; left: 9vw;}
 
 }
 
@@ -495,6 +495,9 @@ div#Stage{
   padding-bottom: 20px;
 }
 
+.flex-1 .row .align-content-center{
+  flex: 1;
+}
 //
 // .message-received {
 //   clear: both;

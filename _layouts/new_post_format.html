@@ -15,6 +15,7 @@ layout: default
 
 
         {% for entry in item.Media %}
+
           {% include item--image.html
             H4-Heading=entry.H4-Heading
             Image=entry.FullWidthImage
@@ -25,6 +26,13 @@ layout: default
             Classes='FullWidthImage align-content-center '
           %}
         {% endfor %}
+
+    {% if item.Prototypes %}
+      {% for entry in item.Prototypes %}
+          <div class="align-content-center overflow-hidden edge-prototype col-12">{{entry.Prototype | textilize}}</div>
+          {% include item--figcaption.html Figcaption=entry.Figcaption %}
+      {% endfor %}
+    {% endif %}
     </section>
   {% endfor %}
 

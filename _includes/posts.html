@@ -13,7 +13,7 @@
                 </div>
                 <div class="p-4">
                   <time class="type-size-13 preview__date text-secondary" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-                  <h5 itemprop="name">{{ post.title }}</h5>
+                  <h4 class="roboto-condensed font-weight-bold" itemprop="name">{{ post.title }}</h4>
                 </div>
               </a>
               {% if post.tags %}

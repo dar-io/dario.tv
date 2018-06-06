@@ -61,7 +61,7 @@ section--body:
     Media:
       - Video-social: https://www.youtube.com/embed/MQdYEqyCqvQ?rel=0&amp;showinfo=0
         Layout-Classes: pr-6 pl-6 align-content-center col-sm-12
-        Figcaption: "Deck I presented to BBC News stakeholders demonstrating how the proposed design for the homepage could provide sufficient flexibility for editors to display news content focused on a particular theme or topic"
+        Figcaption: "I presented this deck to the BBC News stakeholders to demonstrate how the proposed design for the homepage could provide sufficient flexibility for editors to display news content focused on a particular theme or topic."
 
 
   - Theme-Classes: block-mb block-mt bg-snow paragraph-decor
