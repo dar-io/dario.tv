@@ -53,7 +53,7 @@ gulp.task('build:scripts', function() {
         paths.jsFiles + '/global/*.js'
     ])
         .pipe(concat('/scripts.min.js'))
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest(paths.jekyllJsFiles))
         .pipe(gulp.dest(paths.siteJsFiles));
 });
@@ -67,7 +67,7 @@ gulp.task('clean:scripts', function(callback) {
 // Optimizes and copies image files.
 gulp.task('build:images', function() {
     return gulp.src('_assets/img/**/*')
-        // .pipe(imagemin())
+        .pipe(imagemin())
         .pipe(gulp.dest(paths.jekyllImageFiles))
         .pipe(gulp.dest(paths.siteImageFiles))
         .pipe(browserSync.stream());
@@ -82,7 +82,7 @@ gulp.task('clean:images', function(callback) {
 //Optimizes and copies image files.
 gulp.task('build:prototypes', function() {
     return gulp.src('_assets/prototypes/**/*')
-        // .pipe(imagemin())
+        .pipe(imagemin())
         .pipe(gulp.dest('assets/prototypes'))
         .pipe(gulp.dest('_site/assets/prototypes'))
         .pipe(browserSync.stream());
@@ -97,7 +97,7 @@ gulp.task('clean:prototypes', function(callback) {
 // Optimizes and copies image files.
 gulp.task('build:svg', function() {
     return gulp.src('_assets/svg/**/*')
-        // .pipe(svgmin())
+        .pipe(svgmin())
         .pipe(gulp.dest('assets/svg'))
         .pipe(gulp.dest('_site/assets/svg'))
         .pipe(browserSync.stream());
