@@ -95,7 +95,7 @@ section--body:
 
   - Theme-Classes: block-mt block-mb bg-gray-100
     H3-Heading: Design Process
-    H4-Heading: Observe. Think. Make. Test. Repeat.
+    Subheading: Observe. Think. Make. Test. Repeat.
     Description:
       - H4-Heading: Observe. Get inspired.
       - Paragraph: "Talk to people, analyse data, gather requirements, observe, throw away any preconceived assumptions. Inspire new thinking by observing problems from different angles."
