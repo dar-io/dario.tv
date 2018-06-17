@@ -278,7 +278,7 @@
 
   Promise._unhandledRejectionFn = function _unhandledRejectionFn(err) {
     if (typeof console !== 'undefined' && console) {
-      console.warn('Possible Unhandled Promise Rejection:', err); 
+      console.warn('Possible Unhandled Promise Rejection:', err);
     }
   };
 

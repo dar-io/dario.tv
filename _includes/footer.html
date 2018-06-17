@@ -1,15 +1,15 @@
 <footer class="footer section-padding--half bg-white">
   <div class="footer__container grid">
-    <p>&copy;{{ site.time | date: "%Y" }} {{ site.title }}.</p>
+    <span class="type-size-15 text-secondary mb-2">&copy;{{ site.time | date: "%Y" }} {{ site.title }}.</span>
     {% if site.email or site.social %}
-      <!-- <ul class="footer__social">
+      <ul class="pl-0 footer__social">
         {% if site.email %}
           <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
         {% endif %}
         {% for social in site.social %}
           <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
         {% endfor %}
-      </ul> -->
+      </ul>
     {% endif %}
   </div>
 </footer>
@@ -33,25 +33,3 @@
     }
   </script>
 {% endif %}
-
-<script>
-var typed = new Typed(".typed-hello", {
-    strings: ['Hello <span class="text-white">👋</span>','Hola <span class="text-white">😃</span>','Olá <span class="text-white">😆</span>','Salut <span class="text-white">🙃</span>'],
-    typeSpeed: 80,
-    backSpeed: 10,
-    smartBackspace: true,
-    startDelay: 2000,
-    showCursor: 'false',
-    cursorChar: '',
-    loop: true
-  });
-
-// var typed = new Typed("#typed", {
-//     strings: ['I’m Dario, a digital product designer at the BBC. \n I\'m driven to make digital experiences inclusive and functional. \nSpecializing in visual and interaction design, with interest in user research and designing in the browser.'],
-//     typeSpeed: 80,
-//     startDelay: 2000,
-//     showCursor: 'false',
-//     loop: false
-//   });
-
-</script>

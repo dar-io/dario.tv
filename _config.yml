@@ -5,10 +5,10 @@ baseurl: ""
 
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-120914150-1
 
 # Instagram API
-instagram_key:
+instagram_key: 8033876855.1677ed0.df9ac16b6e544f1a835218d7f7398055
 instagram_caption: true
 
 # SEO settings
@@ -16,18 +16,19 @@ title: Dario Ramalho
 description: Dario is a Digital Product Designer at the BBC, and he is driven to make digital experiences inclusive and functional. His practice extends towards interactive and visual design
 url: "http://dario.tv/"
 email: darioramalho@gmail.com
-twitter_username:
-default_img:
+twitter_username: darito
+default_img: /assets/img/dario.jpg
 
 # Profile settings
-social:
-  twitter:
+name: Dario Ramalho
+# social:
+#   instagram:
 
 include: ['_pages']
 markdown: redcarpet
 kramdown:
   input: GFM
-       
+
 # Build settings
 exclude: [
  "node_modules",

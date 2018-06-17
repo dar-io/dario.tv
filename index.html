@@ -8,13 +8,10 @@ layout: default
 
         <h2 class="h1 wow fadeIn roboto-condensed font-weight-bold mb-0" data-wow-delay="150ms"><span class="typed-hello"></span><span class="typed-cursor typed-cursor--blink">|</span></h2>
         <h1 class="wow fadeIn roboto-condensed font-weight-bold" data-wow-delay="450ms">I’m Dario, a digital product designer at the BBC.</h1>
-        <span class="wow fadeIn  font-weight-medium type-size-24" data-wow-delay="750ms">Driven to make digital experiences inclusive and functional. Specializing in visual and interaction design, with interest in user research and designing in the browser.</span>
+        <span class="wow fadeIn  font-weight-medium type-size-24" data-wow-delay="750ms">Driven to make digital experiences inclusive and functional. Specializing in visual and interaction design, with interest in motion, user research, and prototyping.</span>
       </header>
     </div>
   </div>
-
-
-
 
   <!-- <div class="mast__img bg-grey">
     <div class="absolute-bg" style="background-image: url('/assets/images/mast-left.jpg');"></div>
@@ -24,9 +21,23 @@ layout: default
   </div> -->
 </section>
 
+{% include posts.html %}
+
+{% include instagram.html %}
 
 
 
 
-  {% include posts.html %}
-</section>
+<script>
+var typed = new Typed(".typed-hello", {
+    strings: ['Hello <span class="text-white">👋</span>','Hola <span class="text-white">😃</span>','Olá <span class="text-white">😆</span>','Salut <span class="text-white">🙃</span>'],
+    typeSpeed: 80,
+    backSpeed: 10,
+    smartBackspace: true,
+    startDelay: 2000,
+    showCursor: 'false',
+    cursorChar: '',
+    loop: true
+  });
+
+</script>

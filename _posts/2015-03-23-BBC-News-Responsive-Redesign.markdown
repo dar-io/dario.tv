@@ -13,15 +13,15 @@ section--body:
   - Theme-Classes: block-mt bg-snow
     H1-Heading: "BBC News Responsive Redesign"
     Description:
-      - Paragraph: "In 2012, BBC News embarked on a journey to completely redesign and reengineer the News static site into a fully responsive mobile first site."
+      - Paragraph: "In 2012, BBC News embarked on a journey to completely redesign and re-engineer the News static site into a fully responsive mobile first site."
 
-      - Paragraph: "The responsive site was first built and released targeting mobile devices. The objective was to progressively make way into a fully responsive desktop site. By rationalising and simplifying our design patterns into a single codebase, we could efficiently build 28 other World Service sites from a common set of components that are language and script agnostic."
+      - Paragraph: "The responsive site was in the first instance built and released targeting mobile devices. The objective was to make way into a fully responsive desktop site progressively. By rationalising and simplifying our design patterns into a single codebase, we could efficiently build 28 other World Service sites from a standard set of components that are language and script agnostic."
 
-      - Paragraph: "On Oct. 2013, I joined BBC News. Since then, as a UX Designer I led and helped improve many parts of the holistic BBC News experience."
+      - Paragraph: "In Oct. 2013, I joined BBC News. Since then, as a UX Designer, I led and helped improve many parts of the holistic BBC News experience."
 
     Media:
       - Layout-Classes: mb-0 pl-1 pr-1 align-content-center col-sm-12
-        Image: /assets/img/Mundo-Hindi-Research-findings-Highlights/NewsResponsivev1.png
+        FullWidthImage: /assets/img/Mundo-Hindi-Research-findings-Highlights/NewsResponsive2015_Artwork.jpg
 
 
     Right-Side-Column:
@@ -42,16 +42,15 @@ section--body:
     H3-Heading: My Role
     H4-Heading: "I led and helped improve many parts of the holistic BBC News experience."
     Description:
-      - Paragraph: "I
-launched the UK and international BBC News sites, and helped launch 28 World Service responsive sites."
-      - Paragraph: "I was part of a multidisciplinary team of 8 designers working across BBC News. I also collaborated with other teams across the BBC to help standardise visual and interactive patterns."
+      - Paragraph: "I launched the UK and international BBC News sites and helped launch 28 World Service responsive sites."
+      - Paragraph: "I was part of a multidisciplinary team of 8 designers working across BBC News. I collaborated with teams of Designers, PMs and Engineers across the BBC to help standardise visual and interactive patterns."
       - Paragraph: "My role as a UX designer was to foremost advocate for user goals and evolve the BBC News online strategy by working closely with Editorial & Product."
 
     Secondary-Column:
       - Description:
-          - Paragraph: "I contributed to the visual and interaction design, built several high fidelity HTML prototypes that have been used for user research in London, Bristol, Mexico City, Delhi and New York."
-          - Paragraph: "As a designer that designs in browser and in other visual design tools, I solved complex tasks by simplifying the problems into easy-to-use, accessible and intuitive solutions."
-          - Paragraph: "I paired with engineers to solve unforeseeable design problems and ensured final builds adhere to our accessibility standards."
+          - Paragraph: "I contributed to the visual and interaction design, built several high fidelity HTML prototypes used for usability research in London, Bristol, Mexico City, Delhi and New York."
+          - Paragraph: "I designed in the browser and other visual design tools to solve complex tasks by simplifying the problems into easy-to-use, accessible and intuitive solutions."
+          - Paragraph: "I paired with engineers to solve unforeseeable design problems and ensured final builds adhere to the BBC accessibility standards."
 
 
 
@@ -69,15 +68,15 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
     H3-Heading: Design Process
     Description:
       - H4-Heading: "Audience & Competitor Insights"
-      - Paragraph: The first part of my work was to understand how the BBC News site was performing by uncovering audiences's pain points through analytics insights, and by researching our competitors to identify trends and patterns.
+      - Paragraph: The first part of my work was to understand how the BBC News site was performing by uncovering audiences' pain points through analytics insights, and by researching our competitors to identify trends and patterns.
 
 
   - Theme-Classes:  block-mt block-mb bg-snow
     Subheading: DESIGN PROCESS
     Description:
       - H4-Heading: "Wireframe & Ideation"
-      - Paragraph: "To help tackle design challenges, I created low fidelity wireframes and sketches to help identify particular user and business needs."
-      - Paragraph: "Ideas and wireframes were discussed during team critique sessions before creating any high fidelity designs."
+      - Paragraph: "To help tackle design challenges, I created low fidelity wireframes and sketches to help identify a particular user and business need."
+      - Paragraph: "We discussed ideas and wireframes during team critique sessions before creating any high fidelity designs."
 
     Media:
       - Layout-Classes: align-content-center
@@ -112,7 +111,7 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
     Subheading: DESIGN PROCESS
     Description:
       - H4-Heading: "High Fidelity Designs"
-      - Paragraph: "The BBC News site was designed using a common set of rules and components to simplify the build process. We refer to it as The Modular Component Framework."
+      - Paragraph: "The BBC News site was designed using a standard set of rules and components to simplify the build process. We refer to it as The Modular Component Framework."
       - Paragraph: "I designed high fidelity mockups in Adobe Illustrator using the BBC News Modular Component Framework."
 
     Media:
@@ -128,7 +127,7 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
     Subheading: DESIGN PROCESS
     Description:
       - H4-Heading: High Fidelity Prototypes
-      - Paragraph: "I have built desktop only and responsive prototypes in HTML/CSS/JS to validate designs in usability testing sessions, and to engage and gain buy-in from stakeholders. I have also built prototypes to help solve design challenges before they occurred during the build phase."
+      - Paragraph: "I have built desktop only and responsive prototypes in HTML/CSS/JS to validate designs in usability testing sessions, and to engage and gain buy-in from stakeholders. I built prototypes to help solve design challenges before they occurred during the build phase."
       - Paragraph: "<strong>Check the prototypes below</strong>"
       - Paragraph: "<span class='mb-2 align-content-center text-center'> <a class='chip' href='/assets/prototypes/Mundo/desktop.html'>May 2014 - BBC Mundo Research</a> <a class='chip' href='/assets/prototypes/hindi/index.html'>Jun 2014 - BBC Hindi Research</a> <a class='chip' href='/assets/prototypes/NY_PROTOTYPE 29-09-2014_v02/in dex.html'>Oct 2014 - BBC News Int'l Edition Research</a><a class='chip' href='/assets/prototypes/bbc_news_frontpage/04_News_Frontpage_2014/index.html'>Jan 2015 - Responsive BBC News HP Final Designs</a></span> "
 
@@ -138,8 +137,8 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
     Subheading: DESIGN PROCESS
     Description:
       - H4-Heading: Usability Testing
-      - Paragraph: "Once we were happy with the designs, it was time to put them in front of our audiences across the world."
-      - Paragraph: "A total of 42 one-to-one 90 min interviews were conducted in Mexico City, Delhi,  New York and Bristol."
+      - Paragraph: "Once we were happy with the designs, it was time to put them in front of our audiences around the world."
+      - Paragraph: "A total of 42 one-to-one 90 min interviews were conducted in Mexico City, Delhi, New York and Bristol."
       - Paragraph: "For each of the locations, I've built prototypes for BBC Mundo, BBC Hindi, BBC News International and Domestic Editions."
       - Paragraph: "The outcome of this research, informed our design decisions that lead to the public release of the first BBC News Responsive sites."
 
@@ -520,10 +519,10 @@ launched the UK and international BBC News sites, and helped launch 28 World Ser
   - Theme-Classes: block-mt block-mb bg-gray-100
     H3-Heading: Takeaways
     Description:
-      - Paragraph: "The usability research was fundamental to shape the BBC News responsive site in the right direction. The research findings prompted key stakeholders to take action in addressing UX concerns."
-      - Paragraph: "One of the most important finding from this research was about content density. Users wanted to have more stories above the fold and wanted to scroll less."
-      - Paragraph: "Testing HTML prototypes that look and behave like the end-product, helped the participants to act in their natural behaviour when using the site. This was important because it allowed us to capture genuine insights into users' behaviour."
-      - Paragraph: "The final solution for the BBC News responsive website was an evolution of the existing version of the 'static' website rather than a radical re-design. The aim was to provide a much cleaner and clearer layout across all devices."
+      - Paragraph: "The usability research was fundamental to shape the BBC News responsive site in the right direction. The research findings prompted vital stakeholders to take action in addressing UX concerns."
+      - Paragraph: "One of the most significant findings from this research was about content density. Users wanted to have more stories above the fold and wanted to scroll less, but also, they expect news websites to be bustling with stories."
+      - Paragraph: "Testing HTML prototypes that look and behave like the end-product helped the participants to act in their natural behaviour when using the site, allowing us to capture genuine insights into users' behaviour."
+      - Paragraph: "The final solution for the BBC News responsive website was an evolution of the existing version of the 'static' site rather than a radical re-design. The aim was to provide a much cleaner and clearer layout across all devices."
 
     Media:
       - Layout-Classes: align-content-center col-sm-12

@@ -534,50 +534,18 @@ div#Stage{
     animation: blink .7s infinite;
 }
 
-//
-// .message-received {
-//   clear: both;
-//   overflow: hidden;
-// }
-//
-// .message-received::before,
-// .message-received::after {
-//   content: '';
-//   display: table;
-// }
-//
-//
-// .col-message-received {
-//   margin-right: calc(8.33333333% + 0.08333333em) !important;
-// }
-//
-// .col-message-received {
-//   width: calc(91.66666667% - 0.08235677em);
-// }
-//
-// .message-received {
-//   margin-top: 0.0625em;
-//   margin-bottom: 0.0625em;
-//   padding: 1.25em;
-// }
-//
-// .message-received p {
-//   margin: 0;
-//   font-size:16px;
-//   line-height: 19px;
-// }
-//
-//
-// .message-received {
-//   float: left;
-//   border-radius: 0.25em 2em 2em 0.25em;
-// }
-// .message-received:first-child {
-//   border-radius: 2em 2em 2em 0.25em;
-// }
-// .message-received:last-child {
-//   border-radius: 0.25em 2em 2em 2em;
-// }
-// .message-received:only-child {
-//   border-radius: 2em 2em 2em 0.25;
-// }
+.instagram{
+  article{
+      padding-bottom: $spacer !important;
+      @include make-col-ready();
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(3);
+      }
+      a:hover div, img{
+        @include border-radius();
+      }
+  }
+}
