@@ -4,8 +4,6 @@ margin-top: 12px;
 }
 
 .HYPE_scene .correspondent-promo__correspondent {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 -o-box-sizing: border-box;
 box-sizing: border-box;
@@ -51,10 +49,7 @@ color: #404040;
 }
 
 .HYPE_scene .correspondent-promo__details {
--webkit-background-size: auto 100%;
--moz-background-size: auto 100%;
 -ms-background-size: auto 100%;
--o-background-size: auto 100%;
 background-size: auto 100%;
 display: block;
 margin-left: 14px;
@@ -70,8 +65,6 @@ position: absolute;
 right: 32px;
 height: 96px;
 width: 96px;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
 border-radius: 50%;
 overflow: hidden;
   -khtml-border-radius: 50%;
@@ -84,9 +77,7 @@ overflow: hidden;
 bottom: 0;
 position: absolute;
 right: 0;
--webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+border-radius: 50%;
     -khtml-border-radius: 50%;
     vertical-align: middle;
     background-color: #fff;
