@@ -48,18 +48,32 @@
     color:#222;
   }
    body .HYPE_scene .hype_content_wrapper .card{
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
       flex: 1 1 auto;
       background-color:#fff;
       box-shadow: 0px 2px 0px #DEDEDE;
    }
    body .HYPE_scene .hype_content_wrapper .card.horizontal{
       width:100%;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
       flex-direction: row;
 
     }
     body .HYPE_scene .hype_content_wrapper .card.vertical{
       width:100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
     }
    body .HYPE_scene .hype_content_wrapper .vertical .image{
@@ -70,9 +84,22 @@
    body .HYPE_scene .hype_content_wrapper .horizontal .card--body{width: calc(100% - 144px)}
    body .HYPE_scene .hype_content_wrapper .card--body{
       padding: 4px 8px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
       justify-content: space-between;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
       flex: 1 1 auto;
 
    }
@@ -190,18 +217,39 @@ body .HYPE_scene .hype_content_wrapper .duration-icon{vertical-align:middle;}
 
 body .HYPE_scene .hype_content_wrapper .max--container{
 background-color:#F2EFEC;
+    -webkit-transition: background-color 0.2s ease-out;
+  -khtml-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -ms-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 
 body .HYPE_scene .hype_content_wrapper .max--container:hover{
+
+    -webkit-transition: background-color 0.2s ease-out;
+  -khtml-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -ms-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 
 body .HYPE_scene .hype_content_wrapper .faux-block-link__target, .links-faux-block-link--hover{
+   -webkit-transition: color 0.2s ease-out;
+  -khtml-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
 body .HYPE_scene .hype_content_wrapper .links-faux-block-link--hover .faux-block-link__target a{
   color: #1380A1 !important;
+  -webkit-transition: color 0.2s ease-out;
+  -khtml-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
 
@@ -404,6 +452,7 @@ body .HYPE_scene .hype_content_wrapper .align-middle{
   top: 50%;
   display: block;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
