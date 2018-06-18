@@ -16,8 +16,6 @@ width: 33.33333%;
 }
 
 .promo-unit-spacer .bold-image-promo, .promo-unit-spacer .small-image-promo, .promo-unit-spacer .vertical-promo__small-unit {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 -o-box-sizing: border-box;
 box-sizing: border-box;

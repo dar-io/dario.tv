@@ -129,10 +129,6 @@ html ,body , .b-r a, .b-r abbr, .b-r acronym, .b-r address, .b-r applet, .b-r ar
     font-weight: bold;
    
     z-index: 90;
-    -moz-transition: background .25s;
-    -webkit-transition: background .25s;
-    -o-transition: background .25s;
-    -ms-transition: background .25s;
     transition: background .25s
 }
 
