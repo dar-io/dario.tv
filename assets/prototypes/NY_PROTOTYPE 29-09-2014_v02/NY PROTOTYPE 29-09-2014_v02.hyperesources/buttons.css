@@ -128,8 +128,7 @@ z-index: 100;
 width: 100%;
 top: 0;
 bottom: 0;
--webkit-filter: none;
-        filter: none;
+filter: none;
 /* background: rgba(255, 255, 255, 0.6); */
 /* background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…iIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+'); */
 /* background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.85), #fff); */
@@ -146,10 +145,13 @@ z-index: 100;
 width: 100%;
 top: 0;
 bottom: 0;
--webkit-filter: none;
-        filter: none;
+filter: none;
 /* background: rgba(255, 255, 255, 0.6); */
-background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…iIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+'); 
+background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…iIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.85), #fff); 
+background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.85), #fff); 
+background-image: -o-linear-gradient(to right, rgba(255, 255, 255, 0.85), #fff); 
+background-image: -ms-linear-gradient(to right, rgba(255, 255, 255, 0.85), #fff); 
 background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), #FFF); 
 }
 
@@ -160,9 +162,12 @@ z-index: 100;
 width: 178px;
 top: 0;
 bottom: 0;
--webkit-filter: none;
-        filter: none;
+filter: none;
 background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJoâ€¦iIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+background-image: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0.85), #fff);
+background-image: -moz-linear-gradient(to left, rgba(255, 255, 255, 0.85), #fff);
+background-image: -o-linear-gradient(to left, rgba(255, 255, 255, 0.85), #fff);
+background-image: -ms-linear-gradient(to left, rgba(255, 255, 255, 0.85), #fff);
 background-image: linear-gradient(to left, rgba(255, 255, 255, 0.85), #fff);
 }
 

@@ -1784,6 +1784,7 @@
 
 .accordion__item--expanded .accordion__icon {
     -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
@@ -2971,6 +2972,7 @@
     background: #d00;
     margin-left: 4px;
     border: 1px solid #000;
+    -webkit-box-shadow: -0.125rem 0.125rem 0 0 #ffdf43;
     box-shadow: -0.125rem 0.125rem 0 0 #ffdf43
 }
 
@@ -3999,11 +4001,20 @@
 }
 
 .gel-layout--flex {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
 
 .gel-layout--flex .gel-layout__item {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex
 }
 
@@ -4231,12 +4242,20 @@
     margin-left: -17px;
     color: #5a5a5a;
     -webkit-animation-name: spin;
+    -moz-animation-name: spin;
+    -ms-animation-name: spin;
     animation-name: spin;
     -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
     animation-timing-function: linear
 }
 
@@ -4250,15 +4269,23 @@
     }
 }
 
-@keyframes spin {
+@-moz-keyframes spin {
     0% {
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
+        -moz-transform: rotate(0deg)
     }
 
     100% {
-        -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
     }
 }
 
@@ -4620,6 +4647,7 @@
     display: inline-block;
     position: relative;
     top: -2px;
+    -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     font-size: 0.625rem
@@ -5028,10 +5056,12 @@
 .booking-card--yellow-red {
     background: #d00;
     margin-left: 4px;
+    -webkit-box-shadow: -0.25rem 0.25rem 0 0 #ffdf43;
     box-shadow: -0.25rem 0.25rem 0 0 #ffdf43
 }
 
 .booking-card--rotate {
+    -ms-transform: rotate(12deg);
     -webkit-transform: rotate(12deg);
     transform: rotate(12deg)
 }
@@ -5047,6 +5077,9 @@
     padding-bottom: 0.75rem;
     padding-left: 12px;
     background-color: #ededed;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
     flex: 1 1 100%
 }
 
@@ -5095,7 +5128,13 @@
 
 @media (min-width: 37.5em) {
     .ascot {
+        display:-moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-left: -32px;
     }
@@ -5103,7 +5142,13 @@
 
 @media (min-width: 37.5em) {
     .ascot__group {
+        display:-moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
+        -moz-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
         flex: 1 1 auto;
     }
 }
@@ -5131,6 +5176,9 @@
     display: inline-block;
     width: 100%;
     padding-left: 8px;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     vertical-align: top
 }
@@ -5217,7 +5265,13 @@
 
 .headingley {
     margin-left: -8px;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
 
@@ -5241,6 +5295,9 @@
     padding-left: 8px;
     border-bottom: 0;
     vertical-align: top;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex
 }
 
@@ -5307,12 +5364,20 @@
 .lakeside {
     margin-left: -8px;
     color: #5a5a5a;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
     flex: 1 1 100%
 }
 
 @media (min-width: 37.5em) {
     .lakeside {
+        -webkit-flex-direction:column;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-left: -16px;
     }
@@ -5351,9 +5416,18 @@
 
 .lakeside__body {
     overflow: hidden;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     justify-content: space-between
 }
@@ -5408,6 +5482,8 @@
 }
 
 .lakeside--hero {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column
 }
 
@@ -5439,6 +5515,9 @@
 
 @media (min-width: 37.5em) {
     .lords {
+        display:-moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         margin-left: -32px;
     }
@@ -5499,6 +5578,9 @@
 
 @media (min-width: 37.5em) {
     .lords__item {
+        display:-moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         padding-top: 0;
         padding-bottom: 0;
@@ -5566,13 +5648,20 @@
 
 .silverstone__items {
     margin-top: -0.5rem;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: -8px
 }
 
 @media (min-width: 37.5em) {
     .silverstone__items {
+        -webkit-justify-content:space-between;
         -moz-justify-content: space-between;
         justify-content: space-between;
         margin-top: -1rem;
@@ -5582,7 +5671,13 @@
 
 .silverstone__item {
     display: inline-block;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 50%;
     padding-left: 8px;
@@ -5655,6 +5750,9 @@
 .silverstone-article {
     margin-top: 0.5rem;
     background-color: #ededed;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto
 }
 
@@ -5759,7 +5857,13 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-top: 1px solid #ededed;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
     flex: 1 1 100%
 }
 
@@ -5795,6 +5899,9 @@
     border: 1px solid #ededed;
     border-top: 0;
     display: inline-block;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     width: 100%;
     padding-top: 0
@@ -5886,6 +5993,7 @@
 
 @media (min-width: 25em) {
     .all-sports__items {
+        -moz-column-count:2;
         -webkit-column-count: 2;
         column-count: 2;
     }
@@ -5893,6 +6001,7 @@
 
 @media (min-width: 42.5em) {
     .all-sports__items {
+        -moz-column-count:3;
         -webkit-column-count: 3;
         column-count: 3;
     }
@@ -5900,6 +6009,7 @@
 
 @media (min-width: 56.25em) {
     .all-sports__items {
+        -moz-column-count:4;
         -webkit-column-count: 4;
         column-count: 4;
     }
@@ -7718,6 +7828,10 @@
 
 .event-timeline__dates-container {
     position: relative;
+    -webkit-transition: left .3s ease-in-out;
+    -moz-transition: left .3s ease-in-out;
+    -ms-transition: left .3s ease-in-out;
+    -o-transition: left .3s ease-in-out;
     transition: left .3s ease-in-out
 }
 
@@ -7992,6 +8106,7 @@
 
 .filter__list {
     -webkit-columns: 3 15.625rem;
+    -moz-columns: 3 15.625rem;
     columns: 3 15.625rem;
     margin-bottom: 0
 }
@@ -8332,6 +8447,7 @@
 .form-group--error .form-group__input {
     color: #a94442;
     border-color: #a94442;
+    -webkit-box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,0.075),0 0 0.375rem #ce8483;
     box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,0.075),0 0 0.375rem #ce8483
 }
 
@@ -9218,6 +9334,10 @@
 
 @media (min-width: 20em) {
     .knockout-tracker {
+        display:-webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         position: relative
     }
@@ -9247,8 +9367,22 @@
 
     .knockout-tracker__column {
         position: relative;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         list-style: none;
         padding-top: 3rem;
@@ -9268,19 +9402,31 @@
     }
 
     .knockout-tracker__spacer {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
         -moz-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         flex-grow: 1
     }
 
     .knockout-tracker__spacer:first-child,.knockout-tracker__spacer:last-child {
+        -webkit-box-flex: .5;
+        -moz-box-flex: .5;
+        -webkit-flex: .5;
         -moz-flex: .5;
+        -ms-flex: .5;
         flex: .5;
         flex-grow: .5
     }
 
     .knockout-tracker__item-spacer {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
         -moz-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         flex-grow: 1
     }
@@ -9726,8 +9872,16 @@
 }
 
 .live-coverage-item {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto
 }
 
@@ -9779,9 +9933,18 @@
 }
 
 .live-coverage-item__body {
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     justify-content: space-between
 }
@@ -10673,6 +10836,9 @@
     padding-right: 16px;
     padding-bottom: 1rem;
     padding-left: 16px;
+    background: -webkit-linear-gradient(top, rgba(1, 17, 22, 0) 0%, rgba(1, 17, 22, 0.85) 100%);
+    background: -ms-linear-gradient(top, rgba(1, 17, 22, 0) 0%, rgba(1, 17, 22, 0.85) 100%);
+    background: -o-linear-gradient(top, rgba(1, 17, 22, 0) 0%, rgba(1, 17, 22, 0.85) 100%);
     background: linear-gradient(to bottom, rgba(1, 17, 22, 0) 0%, rgba(1, 17, 22, 0.85) 100%)
 }
 
@@ -11028,6 +11194,9 @@
 
 .medals-table__row--expanded .medal-list__item-icon {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
@@ -11421,6 +11590,9 @@
 
 .medals-table-by-sport__sport-row--expanded .medal-list-by-sport__item-icon {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
@@ -12345,6 +12517,8 @@
 
 .primary-nav-flyout__section--open .primary-nav-flyout__chevron,.primary-nav-flyout__section--open .primary-nav-flyout__chevron:before {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
@@ -12765,6 +12939,8 @@
 
 .secondary-nav--flyout-open .secondary-nav__chevron,.secondary-nav--flyout-open .secondary-nav__chevron:before {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 

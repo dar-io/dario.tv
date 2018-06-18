@@ -128,6 +128,10 @@ body {
     font-weight: bold;
     *zoom: 1;
     z-index: 90;
+    -moz-transition: background .25s;
+    -webkit-transition: background .25s;
+    -o-transition: background .25s;
+    -ms-transition: background .25s;
     transition: background .25s
 }
 

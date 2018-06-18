@@ -206,7 +206,8 @@ padding-bottom: 16px;
 
 .HYPE_scene .fade {
   opacity: 0;
-  transition: opacity 0.15s linear;
+  -webkit-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
 }
 
 .HYPE_scene .fade.in {
@@ -220,7 +221,8 @@ padding-bottom: 16px;
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .HYPE_scene .btn-default {
