@@ -234,9 +234,9 @@ content-block:
         Description:
           - Paragraph: "<strong>Check the prototypes below:</strong>"
           - Paragraph: |
-              <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype (static designs)</a>
-              <br /> <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a>
-              <br /> <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/03_October_2016/index.html'>3) Final version designed in the browser (HTML)</a>
+              <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype (static designs)</a>
+              <br /> <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a>
+              <br /> <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/'>3) Final version designed in the browser (HTML)</a>
 
     Media:
         - Layout-Classes:  align-content-center mb-2
@@ -259,9 +259,9 @@ content-block:
     H2-Heading: Frontpage design evolution
     Description:
       - Paragraph: |
-          <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Front page Low fidelity prototype (static designs)</a>
-          <br /> <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a>
-          <br /> <a target="blank" class="chip" href='/assets/prototypes/bbc_news_frontpage/03_October_2016/index.html'>3) Final version designed in the browser (HTML)</a>
+          <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Front page Low fidelity prototype (static designs)</a>
+          <br /> <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a>
+          <br /> <a target="blank" class="chip" href='https://dar-io.github.io/bbcnewsfrontpage/'>3) Final version designed in the browser (HTML)</a>
           <br /> <a target="blank" class="chip" href="http://www.bbc.co.uk/news">2) Live BBC News Homepage</a>
 
     Media:

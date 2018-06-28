@@ -97,7 +97,7 @@ gulp.task('clean:prototypes', function(callback) {
 // Optimizes and copies image files.
 gulp.task('build:svg', function() {
     return gulp.src('_assets/svg/**/*')
-        .pipe(svgmin())
+        // .pipe(svgmin())
         .pipe(gulp.dest('assets/svg'))
         .pipe(gulp.dest('_site/assets/svg'))
         .pipe(browserSync.stream());
