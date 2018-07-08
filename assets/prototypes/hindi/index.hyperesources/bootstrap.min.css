@@ -138,8 +138,7 @@
 
 .HYPE_scene .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-          transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
 
 .HYPE_scene .fade.in {
@@ -153,8 +152,7 @@
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .HYPE_scene .btn-default {
