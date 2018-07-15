@@ -47,7 +47,7 @@ section--body:
     H3-Heading: My Role
     Description:
       - Paragraph: "Throughout the project, I was the design lead collaborating with a Business Analyst, iOS and Android engineers."
-      - Paragraph: "I created the visual and interaction designs. Built prototypes, conducted guerrilla testing and presented the findings back to the product and editorial teams."
+      - Paragraph: "I created visual and interaction designs. Built prototypes, conducted guerrilla testing and presented the findings back to the product and editorial teams."
 
     Secondary-Column:
        -  Description:
@@ -80,10 +80,6 @@ section--body:
       - Paragraph: "Improve the click-through rate into the Videos of the Day and BBC Stories experiences. By including more detail from within the package on the promo (currently just images, but potentially including headlines and summaries)."
       - Paragraph: "Changing the existing model (a single entry point into a linear experience) may compromise the editorial integrity of the package concept."
 
-    Media:
-      - Layout-Classes: mt-4 align-content-center col-sm-12 mb-4
-        Image: /assets/img/news-stream-promo/VotD-carousel-engagement@4x.png
-
 
 
   - Theme-Classes: block-mt bg-gray-100
@@ -98,14 +94,32 @@ section--body:
         Image: /assets/img/news-stream-promo/Ten_to_Watch_original promo.png
 
 
-  - Theme-Classes: block-mt bg-snow
-    H3-Heading: The Approach
+  - Theme-Classes: block-mb block-mt bg-snow
+    H3-Heading: Design Process                                 
     Description:
+      - H4-Heading: <span class="text-secondary">In a nutshell my design process is...</span>
+      - H4-Heading: Observe <span class="text-secondary">→</span> Think <span class="text-secondary">→</span> Make <span class="text-secondary">→</span> Test <span class="text-secondary">→</span> Repeat <span class="text-secondary">∞</span>
+
+  - Theme-Classes: block-mt bg-gray-100
+    Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Observe.</span>
+      - H4-Heading: Observe the data and discover what are the user pain points
+      - Paragraph: 'The business analyst collected the data around the performance of VotD and we identified possible user pain points:'
+      - Paragraph: The number of users consuming Videos of the Day is low, but those who visit VotD consume more videos than the average user.
+      - Paragraph: Users are also not exploring the full package of videos. The further a video is from the beginning of the carousel, less video views it gets.
+    Media:
+      - Layout-Classes: mt-4 align-content-center col-sm-12 mb-4
+        Image: /assets/img/news-stream-promo/VotD-carousel-engagement@4x.png
+
+
+  - Theme-Classes: block-mt bg-snow
+    Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Think.</span>
       - H4-Heading: The Three Amigos — Kick off session with UX, BA and Developers
       - Paragraph: |
-           At the outset of the project, we agreed that it was essential for myself  (UX), a Business Analyst, an iOS and Android Developer to collaborate in building a shared understanding, on how we could deliver improvements to Videos of the Day and the BBC Stories promo.
-      - Paragraph: |
-          To improve the click-through rate into the Videos of the Day and BBC Stories experiences, we devised three hypothesis:
+           From the outset of the project, myself  (UX), a Business Analyst, an iOS and Android developer collaborated in building a shared understanding, on how we could deliver improvements to Videos of the Day and the BBC Stories promo. We questioned or selfs:
+      - Paragraph: <strong>How might we get more people watching more Videos of the Day?</strong>
+      - H4-Heading: 'We devised three hypothesis:'
     O-List:
       - Bullet: <strong><i>If</i></strong> we display the number of videos in the package next to a <i>watch</i> CTA,  <strong><i>then</i></strong> more users will tap on the promo, scroll further down the package and watch more videos, <strong><i>because</i></strong> they will know how many videos are in the package.
 
@@ -139,22 +153,11 @@ section--body:
 
 
   - Theme-Classes: block-mt block-mb bg-gray-100
-    Subheading: THE APPROACH
-    H3-Heading: Bringing designs to life
     Description:
-      - Paragraph: "Static designs are no longer an option. As a visual and interactive designer, my goal is to bring designs to life and insert them in context with real-world experiences. Such as demoing the interaction in native devices."
-      - Paragraph: "I follow three rules in picking the best tools to prototype my designs. These are:"
-
-    O-List:
-      - Bullet: "<strong>How quickly can I build a prototype and how easy it is to iterate upon designs and interactions? </strong><br /><i>If time is an issue, I create low fidelity prototypes using static designs.</i>"
-
-      - Bullet: "<strong>Can I recreate the interactions using native device technologies? </strong><br /><i> If I'm designing a website, I tend to prototype in HTML/CSS/JS.</i>"
-
-      - Bullet: "<strong>Can the tool render designs and interactions efficiently and smoothly?</strong><br /><i>If I want to build high fidelity prototypes, device-native prototyping tools</i>"
-
-    Description-post-bullet:
+      - H4-Heading: <span class="text-secondary">Design Process → Make.</span>
+      - H4-Heading: Design & Prototype
       - Paragraph: |
-            For this project, I started making the prototypes using <a href="https://tumult.com/hype/">Tumult Hype</a>. I created the prototype in HTML/CSS. <a href="/assets/prototypes/NewsStreamPromo/00_NewStoriesPromo_first_versions.html" target="_blank"> Click here</a> to view several exploration prototypes built using Hype.
+            I started making the prototypes using <a href="https://tumult.com/hype/">Tumult Hype</a>. I created the prototype in HTML/CSS. <a href="/assets/prototypes/NewsStreamPromo/00_NewStoriesPromo_first_versions.html" target="_blank"> Click here</a> to view several exploration prototypes built using Hype.
 
       - Paragraph: |
             To explore other types of interactions, I started using <a href="http://principleformac.com/">Principle</a> to create high fidelity prototypes with animations that feel fast and responsive.
@@ -178,15 +181,16 @@ section--body:
         Figcaption: The objective of these explorations was to give more prominence to the first item on carousel and to retain the concept of the editorialised sequence of items.
 
   - Theme-Classes: block-mb block-mt bg-snow
-    Subheading: THE APPROACH
-    H3-Heading: Guerrilla Testing
     Description:
-      - Paragraph: "Guerrilla testing helped us validate hypothesis three. Changing the promo to a carousel, performed better among the people we tested on the street. Users prefer to have the option to preview the stories available in the package before committing to watch a video."
+      - H4-Heading: <span class="text-secondary">Design Process → Test.</span>
+      - H4-Heading: Guerrilla Testing
+      - Paragraph: "I went out into the street to validate which of the three hypothesis people preferred."
+      - Paragraph: "Hypothesis three was the favourite. Changing the promo to a carousel, performed better among the people we tested on the street. Users prefer to have the option to preview the stories available in the package before committing to watch a video."
 
   - Theme-Classes: block-mb block-mt bg-gray-100
-    Subheading: THE APPROACH
-    H3-Heading: AB Testing
     Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Test.</span>
+      - H4-Heading: AB Testing
       - Paragraph: "We've picked the winning variant (Hypothesis 3) and tested against Hypothesis 1 (the editorial preferred option)."
       - Paragraph: "The experiment ran on Android for just under a month, and we have seen significant statistical improvements in promo engagement and video plays for hypothesis 3 (the carousel), compared to the original experience."
       - Paragraph: "We saw 96% uplift in unique play conversion rate (at least one VotD video consumed in a visit), and 36% uplift in total daily video views."

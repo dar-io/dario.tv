@@ -33,7 +33,6 @@ section--body:
       - FullWidthImage: /assets/img/homepage/cover-image-frontpage.png
 
 
-
   - Theme-Classes: block-mb block-mt bg-snow
     H3-Heading: The Problem
     Description:
@@ -92,71 +91,33 @@ section--body:
         Figcaption: "Early sketch of the News homepage focused on targeting underserved audiences and exploring the question: How Might We effectively showcase Features, Live, Video and Visual Journalism to surface the depth and breadth of content from across BBC News output?"
 
 
-
-  - Theme-Classes: block-mt block-mb bg-gray-100
-    H3-Heading: Design Process
-    Subheading: Observe. Think. Make. Test. Repeat.
+  - Theme-Classes: block-mb block-mt bg-gray-100
+    H3-Heading: Design Process                                 
     Description:
-      - H4-Heading: Observe. Get inspired.
-      - Paragraph: "Talk to people, analyse data, gather requirements, observe, throw away any preconceived assumptions. Inspire new thinking by observing problems from different angles."
+      - H4-Heading: <span class="text-secondary">In a nutshell my design process is...</span>
+      - H4-Heading: Observe <span class="text-secondary">→</span> Think <span class="text-secondary">→</span> Make <span class="text-secondary">→</span> Test <span class="text-secondary">→</span> Repeat <span class="text-secondary">∞</span>
 
-      - Paragraph: "During the discovery phase, I started gathering requirements from stakeholders and also learning who are the decision makers. I carried out audience and competitor analysis to collect data and insights into user behaviours."
+
+  - Theme-Classes: block-mb block-mt bg-snow
+    Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Observe.</span>
+      - H4-Heading: I gather insights from observing problems from different angles. My goal is to empathise with the end user.
+      - Paragraph: "I talk to people, analyse data, gather requirements, and throw away any preconceived assumptions. "
+
+      - Paragraph: "In this project during the discovery phase, I started gathering requirements from stakeholders and also learning who are the decision makers. I carried out audience and competitor analysis to collect data and insights into user behaviours."
 
       - Paragraph: "I shadowed senior front page editors and journalists to understand their workflow when curating stories to be featured on the news front page. I talked to engineers. I questioned everything and challenged any preconceived assumptions."
 
-
-  - Theme-Classes: block-mt block-mb bg-snow
-    Subheading: DESIGN PROCESS
-    Description:
-      - H4-Heading: Make sense of the findings
-      - Paragraph: "At this stage, I synthesise the unstructured data and start grouping the findings into themes. Themes are then converted into HMW questions (“How Might We...”):"
-    U-List:
-      - Bullet: How Might We achieve optimal content density?
-      - Bullet: How Might We create better content groupings?
-      - Bullet: How Might We entice people to scroll further down the page?
-      - Bullet: How Might We create a design that caters for underserved audiences?
-
+    Media:
+      - Image: /assets/img/homepage/sections_with_most_clicks.png
+        Layout-Classes: col-12
+        Figcaption: "I used data to uncover audience insights."
 
 
   - Theme-Classes: block-mt block-mb bg-gray-100
-    Subheading: DESIGN PROCESS
     Description:
-      - H4-Heading: Don't get attached to ideas
-      - Paragraph: "I start sketching on paper and presenting ideas during the design critique team meetings. At this point, this is a collective process of throwing away ideas. By eliminating ideas, only the good ones persist or at least the ones that are technically feasible."
-
-      - Paragraph: "One of the outcomes of these sessions was the introduction of “Slices”. Slices run horizontally across the full width of the screen. They are easy to reorder, the content hierarchy is consistent across all the breakpoints. It also provides more flexibility for editorial to rearrange content depending on the news agenda."
-    Media:
-      - Image: /assets/img/homepage/wall-with-sketches.jpg
-        Layout-Classes: col-12 col-md-6
-        Figcaption: "During our weekly design critique team meetings, we've encouraged designers to explore ideas on how they would see the BBC News homepage evolve."
-      - Image: /assets/img/homepage/01-sketch-top-stories.jpg
-        Layout-Classes: col-12 col-md-6
-        Figcaption: "Early exploration of the Top stories slice with a variety of content types. The goal was to showcase depth and breath of news stories."
-
-  - Theme-Classes:  block-mt block-mb bg-snow
-    ImageLayout: ImageLeft
-    Subheading: DESIGN PROCESS
-    Description:
-      - H4-Heading: Editorial and product workshop
-      - Paragraph: "Based on the user research we did, the goal of the Editorial and Product workshop was to prune, group, reorder content, consider how the news agenda evolves throughout the day, and to move away from the traditional News sections, e.g., Health, Education, Politics, Video, etc."
-
-      - Paragraph: "We created three groups of mixed people representing Product, Editorial and UX. I facilitated a group of very challenging stakeholders."
-
-      - Paragraph: "Everyone got engaged in solving business and audiences' needs."
-
-      - Paragraph: "The next step was to analyse the data from the workshop and organise it into themes representing each section of the front page. I then began creating wireframes, designs and prototypes."
-
-
-    Media:
-      - Layout-Classes: col-12 col-md-3
-        Image: /assets/img/homepage/editorial-workshop_v1.jpeg
-        Figcaption: "Pruning, Grouping and Ordering content workshop with Editorial and Product stakeholders to define the content strategy for the BBC News homepage"
-
-
-  - Theme-Classes: block-mt block-mb bg-f8f8f8
-    Subheading: DESIGN PROCESS
-    Description:
-      - H4-Heading: Target Audience
+      - H4-Heading: <span class="text-secondary">Design Process → Observe.</span>
+      - H4-Heading: "Personas: Fulfil the BBC News core audience needs."
       - Paragraph: "The BBC News attracts audiences with vastly differing characteristics. I used the BBC News personas regularly throughout the project to guide design decisions and priorities."
 
       - Paragraph: "The BBC News personas consist of five different archetypes. These are:"
@@ -166,17 +127,52 @@ section--body:
         Figcaption: "Key traits of BBC News personas: Headlines only, Social Mobile Tweeters, Local Feelgood, Social Connectors and Supervisual Snackers"
 
 
-  - Theme-Classes: block-mt block-mb bg-snow
-    Subheading: DESIGN PROCESS
+
+  - Theme-Classes: block-mt bg-snow pb-4
     Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Think.</span>
+      - H4-Heading: Synthesise the findings
+      - Paragraph: "At this stage, I synthesise the unstructured data and start grouping the findings into themes. Themes are then converted into HMW questions (“How Might We...”):"
+    U-List:
+      - Bullet: How Might We achieve optimal content density?
+      - Bullet: How Might We create better content groupings?
+      - Bullet: How Might We entice people to scroll further down the page?
+      - Bullet: How Might We create a design that caters for underserved audiences?
+
+  - Theme-Classes:  block-mb bg-snow
+    ImageLayout: ImageLeft
+    Description:
+      - H4-Heading: Editorial & product workshop
+      - Paragraph: Part of my thinking process, is to get stakeholders and engineers involved in the design thinking process to empathise with the user.
+      - Paragraph: "I organised and facilitated a workshop with editorial stakeholders with the goal of pruning, grouping and reordering content, considering how the news agenda evolves throughout the day."
+    Media:
+      - Layout-Classes: col-12 col-md-3
+        Image: /assets/img/homepage/editorial-workshop_v1.jpeg
+        Figcaption: "Pruning, Grouping and Ordering content workshop with Editorial and Product stakeholders to define the content strategy for the BBC News homepage"
+
+
+  - Theme-Classes: block-mt block-mb bg-gray-100
+    Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Make.</span>
+      - H4-Heading: Don't get attached to ideas
+      - Paragraph: "I start sketching on paper and presenting ideas during the design critique team meetings. At this point, this is a collective process of throwing away ideas. By eliminating ideas, only the good ones persist or at least the ones that are technically feasible."
+
+    Media:
+      - Image: /assets/img/homepage/wall-with-sketches.jpg
+        Layout-Classes: col-12
+        Figcaption: "During our weekly design critique team meetings, we've encouraged designers to explore ideas on how they would see the BBC News homepage evolve."
+
+
+  - Theme-Classes: block-mt block-mb bg-snow
+    Description:
+      - H4-Heading: <span class="text-secondary">Design Process → Make.</span>
+      - H4-Heading: Prototype
       - Image: /assets/img/homepage/start-collider.gif
         Layout-Classes: mb-5
         Figcaption: "I've built the BBC News frontpage using the BBC GEL SCSS Framework using a tool created by UX Designer Simon Sinclair known as Collider (<a href='http://atomicdesign.bradfrost.com/'>Based on Atomic Design</a>)."
-      - H4-Heading: Designing in the Browser
       - Paragraph: "After exploring designs in paper, I moved into Sketch to create high fidelity mockups; this wasn't ideal to solve responsive design nuances that are difficult to communicate using static designs. I wanted to design in the browser to come up with a robust solution that engineers could use to build the BBC News Front Page."
 
       - Paragraph: "To solve problems before they appear before the build, I started to design the BBC News front page in HTML/CSS/JS. I did this to facilitate the communication with the engineering team, stakeholders and to drive the decision-making process."
-      - Paragraph: "In my experience, designing a responsive site in Sketch, Illustrator or Photoshop makes it harder to have a discussion with software engineers and to get the buy-in from stakeholders. "
 
       - Paragraph: "Designing in the browser helped positively to influence the product direction."
 
@@ -185,15 +181,16 @@ section--body:
         Image: /assets/img/homepage/design-prototype.jpg
         Figcaption: |
            <span class='mb-2 d-block align-content-center text-center'> <strong>Check the prototypes below</strong></span>
-           <span class='mb-2 align-content-center text-center'> <a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype (static designs)</a> <a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a> <a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/03_October_2016/index.html'>3) Final version designed in the browser (HTML)</a></span>
+           <span class='mb-2 align-content-center text-center'> <a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype (static designs)</a> <a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration designed in the browser (HTML)</a> <a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/'>3) Final version designed in the browser (HTML)</a></span>
 
 
 
-  - Theme-Classes: bg-snow block-mt block-mb bg-gray-100
-    Subheading: DESIGN PROCESS
+  - Theme-Classes: bg-snow block-mt block-mb bg-gray-100  
     Description:
-      - H4-Heading: Usability Research
-      - Paragraph: "I worked closely with design researchers to define the goals for the research sessions, and build prototypes for rapid and in-depth testing sessions in UK and Canada."
+      - H4-Heading: <span class="text-secondary">Design Process → Test.</span>
+      - H4-Heading: Continuously testing & Usability Research
+      - Paragraph: The advantage of designing in the browser, was that everyone that had the link to the prototype could see what I was designing. I was continuously testing my designs with my colleagues and friends.  
+      - Paragraph: "I also worked closely with design researchers to define the goals for the research sessions, and build prototypes for rapid and in-depth testing sessions in UK and Canada."
 
 
   - Theme-Classes: block-mt bg-snow
@@ -202,7 +199,7 @@ section--body:
       - Image: /assets/img/homepage/01_composition-homepage_evolution.jpg
         Figcaption-top: |
             <span class='mb-2 d-block align-content-center text-center'> <strong>Links to prototypes and the live BBC News frontpage</strong></span>
-            <span class='mb-2 align-content-center text-center'><a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype </a><a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration (HTML/CSS)</a><a target='blank' class='chip' href='/assets/prototypes/bbc_news_frontpage/03_October_2016/index.html'>3) Final design (HTML/CSS)</a><a target='blank' class='chip' href='http://www.bbc.co.uk/news'>2) Live BBC News Homepage</a></span>
+            <span class='mb-2 align-content-center text-center'><a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/01_2016_BBC_News_1280/01_2016_BBC_News_1280.html'>1) Low fidelity prototype </a><a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/02_Feb_2016_Frontpage/pages/uk-edition/index.html'>2) First iteration (HTML/CSS)</a><a target='blank' class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/'>3) Final design (HTML/CSS)</a><a target='blank' class='chip' href='http://www.bbc.co.uk/news'>2) Live BBC News Homepage</a></span>
 
 
 

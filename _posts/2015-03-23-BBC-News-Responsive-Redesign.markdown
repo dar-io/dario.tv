@@ -129,7 +129,7 @@ section--body:
       - H4-Heading: High Fidelity Prototypes
       - Paragraph: "I have built desktop only and responsive prototypes in HTML/CSS/JS to validate designs in usability testing sessions, and to engage and gain buy-in from stakeholders. I built prototypes to help solve design challenges before they occurred during the build phase."
       - Paragraph: "<strong>Check the prototypes below</strong>"
-      - Paragraph: "<span class='mb-2 align-content-center text-center'> <a class='chip' href='/assets/prototypes/Mundo/desktop.html'>May 2014 - BBC Mundo Research</a> <a class='chip' href='/assets/prototypes/hindi/index.html'>Jun 2014 - BBC Hindi Research</a> <a class='chip' href='/assets/prototypes/NY_PROTOTYPE 29-09-2014_v02/in dex.html'>Oct 2014 - BBC News Int'l Edition Research</a><a class='chip' href='/assets/prototypes/bbc_news_frontpage/04_News_Frontpage_2014/index.html'>Jan 2015 - Responsive BBC News HP Final Designs</a></span> "
+      - Paragraph: "<span class='mb-2 align-content-center text-center'> <a class='chip' href='/assets/prototypes/Mundo/desktop.html'>May 2014 - BBC Mundo Research</a> <a class='chip' href='/assets/prototypes/hindi/index.html'>Jun 2014 - BBC Hindi Research</a> <a class='chip' href='/assets/prototypes/NY_PROTOTYPE 29-09-2014_v02/NY_PROTOTYPE 29-09-2014_v02.html'>Oct 2014 - BBC News Int'l Edition Research</a><a class='chip' href='https://dar-io.github.io/bbcnewsfrontpage/04_News_Frontpage_2014/index.html'>Jan 2015 - Responsive BBC News HP Final Designs</a></span> "
 
 
 
