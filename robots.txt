@@ -1,1 +1,1 @@
-Sitemap: http://dario.tv//sitemap.xml
+Sitemap: https://dar-io.github.io/dario.tv/sitemap.xml
